@@ -46,11 +46,10 @@ export default function Technology() {
                   ) : (
                     <Image
                       src={tool.src!}
-                      alt=""
+                      alt={`${tool.name} logo`}
                       width={25}
                       height={25}
                       unoptimized
-                      aria-hidden="true"
                     />
                   )}
                   <span className="text-[14px] font-bold text-text-secondary">

@@ -130,7 +130,7 @@ export default function Navigation() {
               href={personalInfo.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 text-text-secondary hover:text-text-primary transition-colors"
+              className="p-3 text-text-secondary hover:text-text-primary transition-colors"
               aria-label="GitHub profile"
             >
               <GithubIcon size={18} />
@@ -139,7 +139,7 @@ export default function Navigation() {
               href={personalInfo.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 text-text-secondary hover:text-text-primary transition-colors"
+              className="p-3 text-text-secondary hover:text-text-primary transition-colors"
               aria-label="LinkedIn profile"
             >
               <LinkedinIcon size={18} />
@@ -157,7 +157,7 @@ export default function Navigation() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2 text-text-secondary hover:text-text-primary transition-colors"
+          className="md:hidden p-3 -mr-3 text-text-secondary hover:text-text-primary transition-colors"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
         >
@@ -198,7 +198,7 @@ export default function Navigation() {
                   href={personalInfo.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sm text-text-secondary hover:text-text-primary transition-colors"
+                  className="flex items-center gap-2 p-2 -ml-2 text-sm text-text-secondary hover:text-text-primary transition-colors"
                   aria-label="GitHub"
                 >
                   <GithubIcon size={16} />
@@ -208,7 +208,7 @@ export default function Navigation() {
                   href={personalInfo.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sm text-text-secondary hover:text-text-primary transition-colors"
+                  className="flex items-center gap-2 p-2 text-sm text-text-secondary hover:text-text-primary transition-colors"
                   aria-label="LinkedIn"
                 >
                   <LinkedinIcon size={16} />

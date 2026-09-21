@@ -14,7 +14,7 @@ export const navLinks = [
   { label: "Projects", href: "#work" },
   { label: "Experience", href: "#experience" },
   { label: "About", href: "#about" },
-  { label: "Writing", href: "#contact" },
+  { label: "Contact", href: "#contact" },
 ] as const;
 
 export const impactMetrics = [

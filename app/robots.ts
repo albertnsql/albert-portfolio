@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://albertnadar.dev/sitemap.xml",
+    sitemap: "https://albertn.vercel.app/sitemap.xml",
   };
 }

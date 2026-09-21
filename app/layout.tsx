@@ -5,6 +5,7 @@ import Footer from "@/components/footer/Footer";
 import { TransitionProvider } from "@/components/providers/TransitionProvider";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://albertn.vercel.app"),
   title: "Albert Nadar — Senior Analytics Engineer & AI Innovator",
   description:
     "Senior Analytics Engineer building semantic layers, analytics platforms, and AI-powered data experiences with Snowflake, dbt, Looker, SQL, and Python.",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     title: "Albert Nadar — Senior Analytics Engineer & AI Innovator",
     description:
       "Senior Analytics Engineer building semantic layers, analytics platforms, and AI-powered data experiences with Snowflake, dbt, Looker, SQL, and Python.",
-    url: "https://albertnadar.dev",
+    url: "https://albertn.vercel.app",
     siteName: "Albert Nadar",
     locale: "en_US",
     type: "website",

@@ -33,6 +33,7 @@ export default function About() {
                    src="/albert-photo.jpg"
                    alt="Albert Nadar"
                    fill
+                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                    className="object-cover object-[70%_20%]"
                    priority
                  />

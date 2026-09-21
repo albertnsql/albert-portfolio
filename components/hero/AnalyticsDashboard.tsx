@@ -87,7 +87,7 @@ export default function AnalyticsDashboard({
                 Customer Analytics
               </span>
             </div>
-            <span className="text-[10px] font-bold text-text-muted">+</span>
+            <span className="text-[12px] sm:text-[10px] font-bold text-text-muted">+</span>
           </div>
 
           <div className="p-4 sm:p-5">
@@ -95,7 +95,7 @@ export default function AnalyticsDashboard({
               <div className="rounded-xl border border-border-light bg-white p-4 shadow-[0_8px_24px_rgba(39,71,124,0.04)]">
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <p className="text-[11px] font-semibold text-text-muted">
+                    <p className="text-[13px] sm:text-[11px] font-semibold text-text-muted">
                       Total Revenue
                     </p>
                     <p className="mt-1 font-display text-2xl font-black tracking-tight text-navy">
@@ -114,7 +114,7 @@ export default function AnalyticsDashboard({
               <div className="rounded-xl border border-border-light bg-white p-4 shadow-[0_8px_24px_rgba(39,71,124,0.04)]">
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <p className="text-[11px] font-semibold text-text-muted">
+                    <p className="text-[13px] sm:text-[11px] font-semibold text-text-muted">
                       Active Customers
                     </p>
                     <p className="mt-1 font-display text-2xl font-black tracking-tight text-navy">
@@ -180,7 +180,7 @@ export default function AnalyticsDashboard({
                     transition={{ delay: 1, duration: 0.45 }}
                     className="absolute right-7 top-9 rounded-xl border border-border-light bg-white px-3 py-2 shadow-[0_12px_28px_rgba(39,71,124,0.12)]"
                   >
-                    <p className="text-[8px] font-bold text-text-muted">Mar 15</p>
+                    <p className="text-[10px] sm:text-[8px] font-bold text-text-muted">Mar 15</p>
                     <p className="font-display text-[12px] font-black text-navy">$186,432</p>
                   </motion.div>
                 </div>
@@ -205,7 +205,7 @@ export default function AnalyticsDashboard({
                           className="h-full rounded-full bg-gradient-to-r from-accent-blue to-violet-400"
                         />
                       </div>
-                      <span className="text-right text-[10px] font-bold text-text-muted">
+                      <span className="text-right text-[12px] sm:text-[10px] font-bold text-text-muted">
                         {product.pct}%
                       </span>
                     </div>
@@ -246,13 +246,12 @@ export default function AnalyticsDashboard({
           >
             <Image
               src={tool.src}
-              alt=""
+              alt={`${tool.name} logo`}
               width={15}
               height={15}
               unoptimized
-              aria-hidden="true"
             />
-            <span className="text-[10px] font-bold text-text-secondary">{tool.name}</span>
+            <span className="text-[12px] sm:text-[10px] font-bold text-text-secondary">{tool.name}</span>
           </motion.div>
         ))}
       </motion.div>

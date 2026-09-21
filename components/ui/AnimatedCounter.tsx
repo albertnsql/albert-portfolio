@@ -17,7 +17,7 @@ export default function AnimatedCounter({
   duration = 1.5,
   className = "",
 }: AnimatedCounterProps) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(value);
   const [hasAnimated, setHasAnimated] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
 
@@ -39,6 +39,7 @@ export default function AnimatedCounter({
             return;
           }
 
+          setCount(0);
           const startTime = performance.now();
           const animate = (currentTime: number) => {
             const elapsed = (currentTime - startTime) / 1000;
