@@ -68,7 +68,7 @@ export default function Hero() {
             >
               I design and build analytics infrastructure, semantic layers, and
               AI-powered data experiences that help teams move faster with
-              confidence. 5+ years of experience with Snowflake, dbt, Looker,
+              confidence. 7+ years of experience with Snowflake, dbt, Looker,
               SQL and Python.
             </motion.p>
 

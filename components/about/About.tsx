@@ -65,7 +65,7 @@ export default function About() {
             >
               <p>
                 I am a seasoned professional at the intersection of Data, Analytics, Engineering, and AI. 
-                With 5+ years between raw source tables and the numbers a business actually makes decisions with, 
+                With 7+ years between raw source tables and the numbers a business actually makes decisions with, 
                 I build systems that make data more accessible, trustworthy, and useful.
               </p>
               <p>

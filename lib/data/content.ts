@@ -6,7 +6,7 @@ export const personalInfo = {
   email: "albertnsql@gmail.com",
   linkedin: "https://www.linkedin.com/in/albertn97",
   github: "https://github.com/albertnsql",
-  resume: "/Albert_Nadar_Senior_Analytics_Engineer_5YOE.pdf",
+  resume: "/Albert_Nadar_Senior_Analytics_Engineer_7YOE.pdf",
 } as const;
 
 export const navLinks = [

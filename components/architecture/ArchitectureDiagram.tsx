@@ -26,7 +26,7 @@ const steps = [
   },
   {
     title: "Ingestion",
-    detail: "Kafka / ETL",
+    detail: "ELT",
     icon: Workflow,
     color: "text-sky-600 bg-sky-50",
   },

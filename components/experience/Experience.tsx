@@ -39,7 +39,7 @@ export default function Experience() {
                 id="experience-heading"
                 className="font-display text-4xl font-black leading-tight tracking-tight text-navy sm:text-5xl"
               >
-                Building data platforms for <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-blue to-indigo-600">5+ years.</span>
+                Building data platforms for <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-blue to-indigo-600">7+ years.</span>
               </h2>
               <p className="mt-6 text-base leading-relaxed text-text-secondary/80">
                 From optimizing SQL databases to architecting scalable semantic layers and analytics platforms, I&apos;ve consistently driven data-driven culture and technical excellence.
