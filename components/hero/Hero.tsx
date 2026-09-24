@@ -55,7 +55,7 @@ export default function Hero() {
 
             <motion.h1
               variants={fadeInUp}
-              className="font-display text-[clamp(3.1rem,5.7vw,5.35rem)] font-black leading-[0.98] tracking-tight mb-6 text-navy"
+              className="font-display text-[clamp(2.5rem,4.5vw,4.5rem)] font-black leading-[0.98] tracking-tight mb-6 text-navy"
             >
               Turning data into
               <br />
