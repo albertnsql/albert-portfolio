@@ -177,6 +177,8 @@ export const experience = [
       "Engineered an end-to-end dbt and Snowflake analytics warehouse, integrating 10+ sources and establishing a governed Looker semantic layer.",
       "Built predictive Customer Lifetime Value (LTV) models across 1M+ customers, driving a 15% increase in retention and 20% higher campaign ROI.",
       "Developed 60+ Looker dashboards and reports for Finance and Product teams, improving demand forecasting accuracy by 35%.",
+      "Led Looker training workshops and created documentation/playbooks that increased self-service analytics adoption by 40% across business teams.",
+      "Collaborated with cross-functional teams to standardize core business metrics in LookML, ensuring a single source of truth.",
     ],
   },
   {
@@ -187,7 +189,6 @@ export const experience = [
     highlights: [
       "Optimized query performance across 200+ SQL Servers, accelerating slow-running queries by 50% and improving reporting efficiency.",
       "Architected an automated PowerShell monitoring tool, reducing manual database administration efforts by 60%.",
-      "Revamped legacy SQL data pipelines and scripts, reducing execution time by 20% to accelerate analytics delivery.",
     ],
   },
 ] as const;
